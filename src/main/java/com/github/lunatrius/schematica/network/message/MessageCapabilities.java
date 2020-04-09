@@ -39,9 +39,9 @@ public class MessageCapabilities implements IMessage, IMessageHandler<MessageCap
 
     @Override
     public IMessage onMessage(final MessageCapabilities message, final MessageContext ctx) {
-        SchematicPrinter.INSTANCE.setEnabled(message.isPrinterEnabled);
-        Schematica.proxy.isSaveEnabled = message.isSaveEnabled;
-        Schematica.proxy.isLoadEnabled = message.isLoadEnabled;
+        SchematicPrinter.INSTANCE.setEnabled(true);
+        Schematica.proxy.isSaveEnabled = true;
+        Schematica.proxy.isLoadEnabled = true;
 
         Reference.logger.info("Server capabilities{printer={}, save={}, load={}}", message.isPrinterEnabled, message.isSaveEnabled, message.isLoadEnabled);
 
