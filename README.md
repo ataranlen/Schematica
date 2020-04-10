@@ -3,8 +3,11 @@
 I am not responsible for what you do with this mod nor did I write any of the code.
 The code was pasted from these repos (and PR):
 https://github.com/EmotionalLove/Schematica
+
 https://github.com/Theyoungster/Schematica
+
 https://github.com/xcvr48/Schematica
+
 https://github.com/Lunatrius/Schematica/pull/452
 
 
